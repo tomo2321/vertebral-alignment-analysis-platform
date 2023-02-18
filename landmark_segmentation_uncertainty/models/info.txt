@@ -1,0 +1,27 @@
+verse2019:
+
+Training Data:
+
+spine_localization: 80 cases
+vertebrae_localization: 80 cases
+vertebrae_segmentation: 80 cases
+
+==========================================
+
+verse2019_jmid_100cases:
+
+Training Data:
+
+spine_localization: 80 cases + 100 cases
+vertebrae_localization: 80 cases + 100 cases
+vertebrae_segmentation: 80 cases + 100 cases
+
+==========================================
+
+verse2019_jmid_1100cases:
+
+Training Data:
+
+spine_localization: 80 cases + 1100 cases
+vertebrae_localization: 80 cases + 1100 cases
+vertebrae_segmentation: 80 cases + 100 cases (same as verse2019_jmid_100cases)
