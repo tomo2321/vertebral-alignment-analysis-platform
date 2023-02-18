@@ -4,3 +4,4 @@ itk==5.1.1
 SimpleITK==1.2.4
 tensorflow-gpu==1.15.0
 opencv-python==4.4.0.42
+-r volume-renderer-master/requirements.txt
