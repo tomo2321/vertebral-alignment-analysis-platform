@@ -1,6 +1,7 @@
 #!/usr/bin/python
 import sys
-sys.path.append('/win/scallop/user/cheng/public_platform/v1_public/landmark_segmentation_uncertainty/MedicalDataAugmentationTool-master')
+from pathlib import Path
+sys.path.append(str(Path(__file__).absolute().parents[1].joinpath('MedicalDataAugmentationTool-master')))
 
 import time
 import argparse
