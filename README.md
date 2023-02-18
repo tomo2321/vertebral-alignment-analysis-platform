@@ -48,17 +48,11 @@ cd ./test
 mkdir ./img
 ```
 
-The added environment variable of the *MedicalDataAugmentationTool* needs to be revised according to you local path in the following files.
-```bash
-./inference/main_spine_localization.py
-./inference/main_vertebrae_localization.py
-./inference/main_vertebrae_segmentation.py
-```
-
+Choose a model from models and modify the *MODEL* variable in the bash script.
 Run the bash script for the inference.
 
 ```bash
-bash inference_verse19_models.bash
+bash inference.sh
 ```
 
 ### Visualization
