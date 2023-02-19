@@ -32,12 +32,18 @@ We also released the new models: (To be updated)
 * **Spine localization and vertebrae localization**: trained by 1180 CT cases (1000 cases from J-MID and 80 cases from VerSe 2019)
 * **Vertebrae Bayesian segmentation**: trained by 180 CT cases (100 cases from J-MID and 80 cases from VerSe 2019)
 
-### Requirement
+### Environment
 
-The requirment.txt is provided in the repo.
+Pull image from [Docker Hub](https://hub.docker.com/repository/docker/tomo2321/landmark_segmentation_uncertainty/general).
 
 ```bash
-pip install -r requirements.txt
+docker pull tomo2321/landmark_segmentation_uncertainty:latest
+```
+
+Or create a brand new docker image from Dockerfile.
+
+```bash
+docker build -t <YOUR_IMAGE_NAME> .
 ```
 
 ### Inference
@@ -57,10 +63,11 @@ bash inference.sh
 
 ### Visualization
 
+Choose a model from models and modify the *MODEL* variable in the bash script.
 Run the bash script for the visuliazatrion of results.
 
 ```bash
-bash visualization_all.bash
+bash visualization_all.sh
 ```
 
 **Examples of visuliazation**
