@@ -57,10 +57,11 @@ bash inference.sh
 
 ### Visualization
 
+Choose a model from models and modify the *MODEL* variable in the bash script.
 Run the bash script for the visuliazatrion of results.
 
 ```bash
-bash visualization_all.bash
+bash visualization_all.sh
 ```
 
 **Examples of visuliazation**
