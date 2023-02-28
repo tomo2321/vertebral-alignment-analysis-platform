@@ -61,6 +61,12 @@ Run the bash script for the inference.
 bash inference.sh
 ```
 
+If you get an error regarding carriage return in the bash script, try the following command first.
+
+```bash
+sed -i 's/\r//g' inference.sh
+```
+
 ### Visualization
 
 Choose a model from models and modify the *MODEL* variable in the bash script.
